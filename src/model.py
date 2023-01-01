@@ -317,3 +317,7 @@ class Model:
         self.snap_ID += 1
         self.saver.save(self.sess, '../model/snapshot',
                         global_step=self.snap_ID)
+
+
+def defautl():
+    pass
